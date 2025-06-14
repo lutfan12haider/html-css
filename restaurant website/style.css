@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(250, 208, 215);
+    font-family: arial,sans-serif;
+    text-align: center;
+}
+h1{
+    color: darkred;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+}
+.navbar .left{
+    flex: 1;
+}
+.navbar .center{
+ flex: 1;
+ text-align: center;
+}
+.navbar .right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+font-weight: bold;
+margin: 0 10px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.menu{
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.navbar a:hover, .menu:hover{
+    color: orange;
+    background-color: pink;
+}
+.contact{
+    background-color: black;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;}
+    .home{
+        background-color: black;
+        border: none;
+        padding: 10px 15px;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Delights Home</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:lightgoldenrodyellow;
+        }
+
+       
+        img {
+            width: 100%;
+            height: 400px;
+            display: block;
+            margin: 0 auto;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+       
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: #4CAF50;
+            margin-top: 20px;
+            text-transform: uppercase;
+            font-family: 'Georgia', serif;
+        }
+
+        p {
+            text-align: center;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: #5c6bc0;
+            text-decoration: underline;
+            margin-top: 10px;
+        }
+
+      
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            border-bottom: 5px solid #333;
+        }
+
+        .navbar .left, .navbar .center, .navbar .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+       
+        .navbar button {
+            font-size: 1.1rem;
+            padding: 15px 25px;
+            margin: 0 10px;
+            background-color: #ff5722;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar button:hover {
+            background-color: #e64a19;
+            transform: scale(1.1);
+        }
+
+        .navbar a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .navbar button {
+                width: 100%;
+                margin: 10px 0;
+                font-size: 1.2rem;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="https://a.cdn-hotels.com/gdcs/production177/d75/9c4c04f6-b178-4396-a04a-b62e0c31ae9a.jpg"
+        alt="Gourmet Delights Restaurant">
+
+    <h1>"Welcome To Gourmet Delights!"</h1>
+    <p>We serve delicious food made with fresh ingredients and a passion for cooking!</p>
+
+    <div class="navbar">
+        <div class="left">
+            <button class="home">Home</button>
+        </div>
+        <div class="center">
+            <a href="contact.html">
+                <button class="contact">Contact Us</button>
+            </a>
+        </div>
+        <div class="right">
+            <a href="menu.html">
+                <button class="menu">Menu</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
